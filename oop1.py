@@ -21,8 +21,10 @@ class auto(object):
        print(self.age)
 
 
-mashina = auto()
+mashina = auto("Niva", "4x4", 39)
 mashina.move()
 mashina.stop()
 mashina.birthday()
-mashina.birthday()
+print(mashina.mark)
+print(mashina.age)
+print(mashina.brand)
