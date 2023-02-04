@@ -1,11 +1,8 @@
 class auto(object):
-    brand = "Koenigsegg"
-    mark = "Agera"
-    age = 13
     color = "black"
     weight = 1330
 
-    def __init__(self, brand = "Koenigsegg", mark = "Agera", age = 13):
+    def __init__(self, brand = (), mark = (), age = ()):
         self.brand = brand
         self.mark = mark
         self.age = age
