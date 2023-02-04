@@ -1,11 +1,11 @@
 class auto(object):
-    color = "black"
-    weight = 1330
-
-    def __init__(self, brand, mark, age):
+   
+    def __init__(self, brand, mark, age, color = 'black', weight = 1330):
         self.brand = brand
         self.mark = mark
         self.age = age
+        self.color = color
+        self.weight = weight
 
     def move(self):
         print("move")
