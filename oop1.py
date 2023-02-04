@@ -2,7 +2,7 @@ class auto(object):
     color = "black"
     weight = 1330
 
-    def __init__(self, brand = (), mark = (), age = ()):
+    def __init__(self, brand, mark, age):
         self.brand = brand
         self.mark = mark
         self.age = age
